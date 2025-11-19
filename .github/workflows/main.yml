@@ -14,7 +14,7 @@ jobs:
       - name: Export Notion pages
         uses: igor-kupczynski/notion-exporter@v1.0.2
         with:
-          pages: "857bc47c810240faac617f378bf67a3f" # Replace with your page IDs
+          pages: "4cfd6dc92dd648519d9bdcd489c908fd" # Replace with your page IDs
           output-dir: notion-files # Directory to save files in your GitHub repo
           notion-token: ${{ secrets.NOTION_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
